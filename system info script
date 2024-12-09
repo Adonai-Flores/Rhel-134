@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Command will print basic system information
+
+echo "=====--- System Information---====="
+echo "Hostname: $(hostname)"
+echo "Uptime: $(uptime -p)"
+echo "Date: $(date)"
+echo "OS Version: $(uname -r)"
